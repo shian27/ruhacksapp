@@ -11,7 +11,7 @@
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
     
     
-    <video id="myVideo" width="300" height="200"><source src="boomboom.mp4" type="video/mp4"></video>
+    <!-- <video id="myVideo" width="300" height="200"><source src="boomboom.mp4" type="video/mp4"></video> -->
     
   </head>
 <body onload="playVid()">
@@ -28,6 +28,12 @@
       
   <a-assets>
      <!-- <video id="video3" autoplay="true" src="boomboom.mp4"></video> -->
+    
+    <video id="myVideo" src="https://ucarecdn.com/bcece0a8-86ce-460e-856b-40dac4875f15/"
+    crossOrigin="anonymous"
+    autoplay="true"
+    loop="true"
+    style="display: none"></video>
   </a-assets>
   
       <a-entity log="the box is here" geometry="primitive: box" position="-1.3 1.5 0" scale="0.5 1 0.5" rotation="0 0 0" material="src: #myVideo"></a-entity>
