@@ -1,28 +1,21 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
-
+// script.js
 // prints "hi" in the browser's dev tools console
 console.log('hi');
 
-/*getElementById(video) {
-  
-  //if clicked, entity will play
-  //if clicked again, video will pause
+/*
 entity.pause();
 entity.play();
-  
-  //width and height
-}
 */
 
+//call on video file
 var vid = document.getElementById("video");
 
-/* function playVid() { */
-  
+//listen for if video is clicked
 vid.addEventListener('click',function(){
+//if it is clicked, video will play
 vid.play();
+//if it is not clicked, it will not play, 
 },false);
-
 
 /* function pauseVid() { 
     vid.pause(); 
