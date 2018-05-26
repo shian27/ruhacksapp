@@ -8,9 +8,9 @@ entity.play();
 */
 
 //call on video file
-var vid = document.getElementById("video");
+var vid = document.getElementById("myVideo");
 
-function playVideo() {
+function playVid() {
     vid.play();
 }
 //listen for if video is clicked
