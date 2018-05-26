@@ -8,7 +8,7 @@ entity.play();
 */
 
 //call on video file
-var vid = document.getElementById('myVideo');
+var vid = document.getElementById("myVideo");
 
 function playVid() {
     vid.play();
