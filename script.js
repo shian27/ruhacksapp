@@ -8,7 +8,9 @@ entity.play();
 */
 
 //call on video file
-var vid = document.getElementById("video");
+
+
+/* var vid = document.getElementById("video");
 
 //listen for if video is clicked
 vid.addEventListener('click',function(){
@@ -16,6 +18,7 @@ vid.addEventListener('click',function(){
 vid.play();
 //if it is not clicked, it will not play, 
 },false);
+*/
 
 /* function pauseVid() { 
     vid.pause(); 
