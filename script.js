@@ -11,6 +11,7 @@ entity.play();
 var vid = document.getElementById("myVideo");
 
 function playVid() {
+    console.log(vid);
     vid.play();
 }
 //listen for if video is clicked
